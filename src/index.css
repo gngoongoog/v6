@@ -1,0 +1,7 @@
+/* Basic neutral styles (no Tailwind required) */
+:root{
+  --bg:#ffffff;
+  --fg:#111111;
+}
+html,body,#root{height:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:Inter, system-ui, -apple-system, Roboto, "Helvetica Neue", Arial;direction:rtl}
